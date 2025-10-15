@@ -15,8 +15,28 @@ The project is divided into two main parts: the `backend` and the `frontend`. Yo
 
 ### Backend Setup
 
-1.  **Install Python dependencies from the root directory:**
-    It is recommended to use a virtual environment.
+1.  **Create and Activate a Virtual Environment (Recommended):**
+    Before installing dependencies, it's a best practice to create a virtual environment.
+
+    **Using `venv` (standard Python):**
+    ```bash
+    # Create the environment
+    python -m venv venv
+    # Activate it (on Windows)
+    venv\\Scripts\\activate
+    # Activate it (on macOS/Linux)
+    source venv/bin/activate
+    ```
+
+    **Using `conda`:**
+    ```bash
+    # Create the environment
+    conda create --name pen_tool_env python=3.9
+    # Activate it
+    conda activate pen_tool_env
+    ```
+
+2.  **Install Python dependencies from the root directory:**
     ```bash
     pip install -r requirements.txt
     ```
