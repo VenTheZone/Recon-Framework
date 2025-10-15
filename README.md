@@ -36,12 +36,12 @@ The project is divided into two main parts: the `backend` and the `frontend`. Yo
     conda activate pen_tool_env
     ```
 
-2.  **Install Python dependencies from the dependency directory:**
+2.  **Install Python dependencies from the root directory:**
     ```bash
     pip install -r requirements.txt
     ```
 
-2.  **Run the Flask server from the dependency directory:**
+2.  **Run the Flask server from the root directory:**
     ```bash
     python backend/app.py
     ```
